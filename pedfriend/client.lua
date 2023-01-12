@@ -26,7 +26,7 @@ addEvent("sent_ped_meta",true)
 addEventHandler("sent_ped_meta",localPlayer,create_ped_event)
 
 function talk_ped(cmd,...)
-    local msg = string.lower(...)
+    local msg = string.lower(table.concat({...}," "))
     for k,v in pairs(messages) do 
         if string.lower(k) == msg then 
             if isTimer(timer) then 
