@@ -1,9 +1,0 @@
-﻿<meta>
-     <info author="Beyonder#07711" name="Anime Girl" description="Girlfriend" />
-     <script src="settings.lua" type="shared" />
-     <script src="client.lua" type="client" />
-     <script src="server.lua" type="server" />
-     <file src="skin/skin.txd" />
-     <file src="skin/skin.dff" />
-     <min_mta_version server="1.5.9" client="1.5.9" />
-</meta>
